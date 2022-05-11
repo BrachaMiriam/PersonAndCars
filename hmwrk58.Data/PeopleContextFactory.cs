@@ -1,14 +1,10 @@
-﻿using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
+﻿using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.Extensions.Configuration;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace hmwrk58.Data
 {
-    public class PeopleContextFactory
+    public class PeopleContextFactory : IDesignTimeDbContextFactory<PeopleDataContext>
     {
         public PeopleDataContext CreateDbContext(string[] args)
         {

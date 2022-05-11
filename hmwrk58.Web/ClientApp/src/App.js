@@ -1,22 +1,20 @@
-import React, { Component } from 'react';
-import { Route } from 'react-router';
-import { Layout } from './components/Layout';
-import { Home } from './components/Home';
-import { FetchData } from './components/FetchData';
-import { Counter } from './components/Counter';
+import React from 'react';
+import { Route } from 'react-router-dom';
+import PeopleTable from './PeopleTable';
+import AddPerson from './AddPerson';
+import AddCarForm from './AddCarForm';
+import Layout from './Layout';
 
-import './custom.css'
 
-export default class App extends Component {
-  static displayName = App.name;
-
-  render () {
-    return (
-      <Layout>
-        <Route exact path='/' component={Home} />
-        <Route path='/counter' component={Counter} />
-        <Route path='/fetch-data' component={FetchData} />
-      </Layout>
-    );
-  }
+const App = () => {
+   return (
+       <Layout>
+           <Route exact path='/' component={PeopleTable} />
+           <Route exact path='/addperson' component={AddPerson} />
+           <Route exact path='/addcar/:id' component={AddCarForm} />
+       </Layout>
+   )
 }
+
+export default App;
+
