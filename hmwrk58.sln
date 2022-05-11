@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hmwrk58.Web", "hmwrk58.Web\hmwrk58.Web.csproj", "{D6A228BF-9079-4855-A741-B7C422886D0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hmwrk58.Data", "hmwrk58.Data\hmwrk58.Data.csproj", "{09066E3C-FE57-461E-921E-63D9125F18A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6A228BF-9079-4855-A741-B7C422886D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A228BF-9079-4855-A741-B7C422886D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A228BF-9079-4855-A741-B7C422886D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A228BF-9079-4855-A741-B7C422886D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09066E3C-FE57-461E-921E-63D9125F18A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09066E3C-FE57-461E-921E-63D9125F18A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09066E3C-FE57-461E-921E-63D9125F18A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09066E3C-FE57-461E-921E-63D9125F18A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D92FB66-CB85-4F17-A505-10286310C700}
+	EndGlobalSection
+EndGlobal
